@@ -1,12 +1,12 @@
+# 1-2 在TinkerCAD開一個新的Circuit, 分別使甪R, G, B三種顏色的LED, ON (亮) 0.5秒, OFF(滅) 0.5秒
 
 
+## 電路
 
-##電路
 ![image](https://user-images.githubusercontent.com/90953219/133883256-324dfc5a-1d51-4bca-b521-a4a83a47e366.png)
 
-##程式
-
-˙˙˙˙C
+## 程式
+````C
 void setup()
 {
   pinMode(13, OUTPUT); // RED
@@ -30,4 +30,4 @@ void loop()
   
   delay(500); // Wait for 1000 millisecond(s)
 }
-˙˙˙˙
+````
